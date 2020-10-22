@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "934793046804",
+    "firebase_url": "https://zeeshanblogapp.firebaseio.com",
+    "project_id": "zeeshanblogapp",
+    "storage_bucket": "zeeshanblogapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934793046804:android:502c8460edfdbc64613001",
+        "android_client_info": {
+          "package_name": "com.example.zeeshblogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934793046804-odqv9tosctm20j1gc9thfhs11rjeqeo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zeeshblogapp",
+            "certificate_hash": "e7c70a5a8e7650359b14e3c690fde5a791777740"
+          }
+        },
+        {
+          "client_id": "934793046804-p510imcmo29te0r7f341lnp0co754hqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDALZ7srho1Wx8g4SgM_qDt3STIxHRCu3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934793046804-p510imcmo29te0r7f341lnp0co754hqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

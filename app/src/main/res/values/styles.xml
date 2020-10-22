@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_back_pic</item>
+        <item name="android:statusBarColor">@color/whiteColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ViewPagerStyle" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/whiteColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WelcomeScreenPackage.FirstFrag">
+
+    <ImageView
+        android:id="@+id/imageViewID"
+        android:layout_width="295dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:src="@drawable/frag1_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewIDTripID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="casual"
+        android:text="Keep Trip..."
+        android:textColor="#FF2A145E"
+        android:textColorHighlight="#FF2A145E"
+        android:textColorLink="#FF2A145E"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewID"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="@+id/imageViewID"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewID" />
+
+    <TextView
+        android:id="@+id/textViewTravelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="casual"
+        android:text="Keep Travel..."
+        android:textColor="#FF6B7BE4"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/textViewIDTripID"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIDTripID" />
+
+    <TextView
+        android:id="@+id/textViewPostingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="cursive"
+        android:text="Keep Posting"
+        android:textColor="#FF444A73"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textViewTravelID"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTravelID" />
+
+    <ImageView
+        android:id="@+id/frag0_rightArrowImageID"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/rightzees"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
